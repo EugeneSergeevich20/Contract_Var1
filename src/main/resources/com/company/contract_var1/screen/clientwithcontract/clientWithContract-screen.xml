@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://jmix.io/schema/ui/window"
+        caption="msg://clientwithcontractScreen.caption">
+    <data>
+        <collection id="clientDc"
+                    class="com.company.contract_var1.entity.Client"
+                    fetchPlan="_base">
+            <loader id="clientDl">
+                <query>
+                    <![CDATA[
+                    select c from Client c
+                ]]>
+                </query>
+            </loader>
+        </collection>
+        <collection id="contractDc"
+                    class="com.company.contract_var1.entity.Contract"
+                    fetchPlan="_base">
+            <loader id="contractDl">
+                <query>
+                    <![CDATA[select e from Contract e where e.customer = :id]]>
+                </query>
+            </loader>
+        </collection>
+    </data>
+
+    <facets>
+        <screenSettings id="settingsFacet" auto="true"/>
+    </facets>
+
+    <layout>
+
+        <hbox id="mainBox" width="100%" height="100%" spacing="true">
+            <table id="clientTable" width="100%" height="100%"
+                   dataContainer="clientDc">
+                <columns>
+                    <column id="fullName"/>
+                    <column id="phone"/>
+                    <column id="email"/>
+                    <column id="address"/>
+                </columns>
+            </table>
+            <table id="contractTable" width="100%" height="100%"
+                   dataContainer="contractDc">
+                <columns>
+                    <column id="startDate"/>
+                    <column id="stopDate"/>
+                    <column id="sumOfService"/>
+                    <column id="executor"/>
+                </columns>
+            </table>
+        </hbox>
+
+    </layout>
+</window>

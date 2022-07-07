@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://jmix.io/schema/ui/menu">
+
+    <menu id="application" caption="msg://com.company.contract_var1/menu.application" insertBefore="administration">
+        <item screen="User.browse" caption="msg://com.company.contract_var1.screen.user/UserBrowse.caption"/>
+        <item screen="themeSettingsScreen" caption="msg://io.jmix.ui.app.themesettings/themeSettings.caption"/>
+        <item screen="Contract.browse" caption="msg://com.company.contract_var1.screen.contract/contractBrowse.menu"/>
+        <item screen="Client.browse" caption="msg://com.company.contract_var1.screen.client/clientBrowse.menu"/>
+        <item screen="Contractor.browse"
+              caption="msg://com.company.contract_var1.screen.contractor/contractorBrowse.menu"/>
+        <item screen="LegalPerson.browse"
+              caption="msg://com.company.contract_var1.screen.legalperson/legalPersonBrowse.menu"/>
+        <item screen="PhysicalPerson.browse"
+              caption="msg://com.company.contract_var1.screen.physicalperson/physicalPersonBrowse.menu"/>
+        <item screen="ClientWithContractScreen"
+              caption="msg://com.company.contract_var1.screen.clientwithcontract/clientwithcontractScreen.caption"/>
+        <item screen="ContractorWithContractScreen"
+              caption="msg://com.company.contract_var1.screen.contractorwithcontract/contractorWithContractScreen.caption"/>
+    </menu>
+
+</menu-config>
