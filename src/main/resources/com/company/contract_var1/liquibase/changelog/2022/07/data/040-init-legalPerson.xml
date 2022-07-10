@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="1" author="ContractVar1">
+        <insert tableName="LEGAL_PERSON" dbms="postgresql, hsqldb">
+            <column name="LP_ID" value="cba60181-8401-3afb-2a50-37b944ecd9d1"/>
+            <column name="NAME_COMPANY" value="Company 1"/>
+            <column name="INN" value="2221232"/>
+            <column name="ADDRESS" value="address lp 1"/>
+            <column name="DIRECTOR" value="director 1"/>
+        </insert>
+    </changeSet>
+
+    <changeSet id="2" author="ContractVar1">
+        <insert tableName="LEGAL_PERSON" dbms="postgresql, hsqldb">
+            <column name="LP_ID" value="c2eb4475-6299-7ae8-da1b-aabc50631739"/>
+            <column name="NAME_COMPANY" value="Company 2"/>
+            <column name="INN" value="8381232"/>
+            <column name="ADDRESS" value="address lp 2"/>
+            <column name="DIRECTOR" value="director 2"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>

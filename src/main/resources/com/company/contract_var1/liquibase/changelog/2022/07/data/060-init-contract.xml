@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="1" author="ContractVar1">
+        <insert tableName="CONTRACT" dbms="postgresql, hsqldb">
+            <column name="ID" value="18347c93-bf0d-285b-5e82-8c4aeefbb97a"/>
+            <column name="START_DATE" value="2022-07-24"/>
+            <column name="STOP_DATE" value="2022-08-25"/>
+            <column name="SUM_OF_SERVICE" value="665336.00"/>
+            <column name="CUSTOMER_ID" value="0062e27e-573f-59e5-a3c9-bb9b9ec81201"/>
+            <column name="EXECUTOR_ID" value="cba60181-8401-3afb-2a50-37b944ecd9d1"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+    </changeSet>
+
+    <changeSet id="2" author="ContractVar1">
+        <insert tableName="CONTRACT" dbms="postgresql, hsqldb">
+            <column name="ID" value="63e7424c-9376-53fd-9eec-d7335fc83d1b"/>
+            <column name="START_DATE" value="2022-07-03"/>
+            <column name="STOP_DATE" value="2022-07-20"/>
+            <column name="SUM_OF_SERVICE" value="773821.00"/>
+            <column name="CUSTOMER_ID" value="8c4ea72a-fa49-c8c9-501e-6e319c5704c4"/>
+            <column name="EXECUTOR_ID" value="cba60181-8401-3afb-2a50-37b944ecd9d1"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+    </changeSet>
+
+    <changeSet id="3" author="ContractVar1">
+        <insert tableName="CONTRACT" dbms="postgresql, hsqldb">
+            <column name="ID" value="7adaaf39-c1a1-ab2f-376a-fb101409545c"/>
+            <column name="START_DATE" value="2022-07-13"/>
+            <column name="STOP_DATE" value="2022-07-28"/>
+            <column name="SUM_OF_SERVICE" value="22314.00"/>
+            <column name="CUSTOMER_ID" value="0062e27e-573f-59e5-a3c9-bb9b9ec81201"/>
+            <column name="EXECUTOR_ID" value="d1fb2940-13f3-7e39-d47a-bb7c8f731ab3"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+    </changeSet>
+
+    <changeSet id="4" author="ContractVar1">
+        <insert tableName="CONTRACT" dbms="postgresql, hsqldb">
+            <column name="ID" value="7d03e404-23b5-2374-5c73-cc8787693800"/>
+            <column name="START_DATE" value="2022-07-07"/>
+            <column name="STOP_DATE" value="2022-07-29"/>
+            <column name="SUM_OF_SERVICE" value="72712.00"/>
+            <column name="CUSTOMER_ID" value="f8a58f63-92ff-d417-3b2d-ac5c75854915"/>
+            <column name="EXECUTOR_ID" value="07b10d71-b9dc-b573-ef82-2a004aa7facc"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+    </changeSet>
+
+    <changeSet id="5" author="ContractVar1">
+        <insert tableName="CONTRACT" dbms="postgresql, hsqldb">
+            <column name="ID" value="81be2e37-d2db-5ca8-ef68-20fa821648bb"/>
+            <column name="START_DATE" value="2022-07-10"/>
+            <column name="STOP_DATE" value="2022-07-31"/>
+            <column name="SUM_OF_SERVICE" value="33333.00"/>
+            <column name="CUSTOMER_ID" value="f8a58f63-92ff-d417-3b2d-ac5c75854915"/>
+            <column name="EXECUTOR_ID" value="cba60181-8401-3afb-2a50-37b944ecd9d1"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+    </changeSet>
+
+    <changeSet id="6" author="ContractVar1">
+        <insert tableName="CONTRACT" dbms="postgresql, hsqldb">
+            <column name="ID" value="8737e184-6de6-9498-ae76-d16bb16e2d7c"/>
+            <column name="START_DATE" value="2022-06-06"/>
+            <column name="STOP_DATE" value="2022-07-24"/>
+            <column name="SUM_OF_SERVICE" value="72718.00"/>
+            <column name="CUSTOMER_ID" value="8c4ea72a-fa49-c8c9-501e-6e319c5704c4"/>
+            <column name="EXECUTOR_ID" value="c2eb4475-6299-7ae8-da1b-aabc50631739"/>
+            <column name="VERSION" value="1"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>
